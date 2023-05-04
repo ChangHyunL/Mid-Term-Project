@@ -7,7 +7,7 @@ new Chart(ctx, {
     datasets: [
       {
         label: "Capability",
-        data: [3, 3, 8, 6, 4, 0],
+        data: [3, 3, 8, 6, 9, 5],
         borderWidth: 2,
       },
     ],
