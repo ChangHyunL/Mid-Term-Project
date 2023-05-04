@@ -35,8 +35,8 @@ window.addEventListener("wheel", (e) => {
 });
 
 function movePage(e) {
-  console.log(e.path[0].id);
-  switch (e.path[0].id) {
+  console.log(e.target.id);
+  switch (e.target.id) {
     case "profile":
       window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
       break;
