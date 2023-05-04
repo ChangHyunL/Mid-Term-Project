@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 페이지</title>
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="scroll.js" defer></script>
+    <script src="chart.js" defer></script>
+    <script src="getJson.js" defer></script>
+    <script src="image__slide.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <ul>
+            <li>
+                <div class="page" id="profile">PROFILE</div>
+            </li>
+            <li>
+                <div class="page" id="career">CAREER</div>
+            </li>
+            <li>
+                <div class="page" id="capability">CAPABILITY</div>
+            </li>
+            <li>
+                <div class="page" id="personal">PERSONAL</div>
+            </li>
+        </ul>
+    </header>
+    <main class="main">
+        <div class="profile">
+            <div class="picture__box">
+                <h2>이창현</h2>
+                <h3>엘리스 IoT1기</h3>
+                <img src="./assets/profile_pic.png" alt="profile__picture">
+                <p>개발자가 되기 위해 노력하고 있는 예비 개발자 이창현입니다. <br>
+                    주어진 일에 항상 최선을 다하겠습니다. 감사합니다.
+                </p>
+            </div>
+            <div class="info__box">
+                <div class="img__box">
+                    <div><img src="./assets/phone.png" alt="phone"></div>
+                    <div><img src="./assets/email.png" alt="email"></div>
+                    <div><img src="./assets/address.png" alt="address"></div>
+                    <div><img src="./assets/github.png" alt="github"></div>
+                </div>
+                <div class="my__info">
+                    <div>010-8531-9558</div>
+                    <div>dlckdgus200011@gmail.com</div>
+                    <div>경기도 용인시 기흥구</div>
+                    <div><a href="https://github.com/ChangHyunL" target="_blank">https://github.com/ChangHyunL</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="career">
+            <p>A&nbsp;B&nbsp;O&nbsp;U&nbsp;T&nbsp;&nbsp;&nbsp;&nbsp;M&nbsp;Y&nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;A&nbsp;R&nbsp;E&nbsp;E&nbsp;R
+            </p>
+            <div class="career__list">
+                <ul>
+                    <p>2022-11 ~ </p>
+                    <h4>엘리스 IoT트랙 1기 수강 중</h4>
+                    <div><img src="./assets/elice.png" alt="elice"></div>
+                    <p>웹프로그래밍과 IoT기술에 대해 배우고 있습니다.</p>
+                </ul>
+                <ul>
+                    <p>2022-04 ~ 2022-08</p>
+                    <h4>창업경진대회 참가 & 멘토링</h4>
+                    <div><img src="./assets/startup.jpg" alt="startup"></div>
+                    <p>창업시장에 대한 전반적인 지식을 배웠습니다.</p>
+                </ul>
+                <ul>
+                    <p>2019-03 ~ </p>
+                    <h4>단국대학교 소프트웨어학과 재학 중</h4>
+                    <div><img src="./assets/dku.jpg" alt="dku"></div>
+                    <p>프로그래밍에 대한 전반적인 지식을 배우고 있습니다.</p>
+                </ul>
+            </div>
+        </div>
+        <div class="skill">
+            <canvas id="myChart"></canvas>
+        </div>
+        <div class="personal">
+            <div class="slide__page">
+                <div class="slide__wrapper">
+                    <ul class="slides"></ul>
+                </div>
+                <div class="controls">
+                    <p id="prev">prev</p>
+                    <p id="next">next</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Copywrite 2022. LeeChangHyun. all rights reserved.</p>
+    </footer>
+</body>
+
+</html>.
