@@ -1,0 +1,27 @@
+[
+  {
+    "type": "좋아하는 동물",
+    "src": "https://dimg.donga.com/a/450/0/90/5/wps/NEWS/IMAGE/2013/01/29/52671168.3.jpg",
+    "content": "강아지"
+  },
+  {
+    "type": "좋아하는 음식",
+    "src": "https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/201702/27/117f5b49-1d09-4550-8ab7-87c0d82614de.jpg",
+    "content": "삼겹살"
+  },
+  {
+    "type": "취미",
+    "src": "https://plab-football.s3.amazonaws.com/static/img/img_about3.jpg",
+    "content": "운동"
+  },
+  {
+    "type": "꿈",
+    "src": "https://img.freepik.com/premium-vector/people-working-together-illustration_52683-25033.jpg?w=2000",
+    "content": "함께 일하고 싶은 개발자"
+  },
+  {
+    "type": "하고싶은 말",
+    "src": "https://blog.kakaocdn.net/dn/Pie0t/btrUWaNAFcl/72kSf1ynbjJr8PKIkKVQ31/img.jpg",
+    "content": "새해 복 많이 받으세요!!"
+  }
+]
